@@ -1,7 +1,7 @@
 """
 validation.py
 
-validates user input to prevent errors : we have two users(organiztion and Individual)
+validates user input to prevent errors : we have two users(organization and Individual)
 """
 
 
