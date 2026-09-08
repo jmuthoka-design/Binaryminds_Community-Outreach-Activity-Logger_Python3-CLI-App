@@ -30,7 +30,7 @@ ACTIVITIES = [
     "Coastal Conservation Activity"
 ]
 
-# Every activity connects to a GC (Great Challenge) theme.
+# Every activity connects to a GC (Grand Challenge) theme.
 # This dictionary matches each activity type to its theme, so we
 # never have to ask the user to type it themselves - we look it up.
 ACTIVITY_THEMES = {
