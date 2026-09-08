@@ -30,7 +30,7 @@ ACTIVITIES = [
     "Coastal Conservation Activity"
 ]
 
-# Every activity connects to a GCGO (Global Challenge) theme.
+# Every activity connects to a GC (Great Challenge) theme.
 # This dictionary matches each activity type to its theme, so we
 # never have to ask the user to type it themselves - we look it up.
 ACTIVITY_THEMES = {
@@ -88,7 +88,7 @@ def find_activity_by_id(activity_id):
 
 def get_all_activities_in_one_list():
     """
-    Put every activity (organization AND individual) into a single
+    Put every activity (organization and individual) into a single
     list. This makes it easier when we want to look at everything
     at once, like for statistics or the impact report.
     """
