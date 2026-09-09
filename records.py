@@ -24,7 +24,7 @@ ACTIVITIES = [
     "Tree Planting",
     "Recycling Campaign",
     "Community Gardening",
-    "Sustainable Transport Campaign",
+    "Join a movement",
     "Water Conservation Campaign",
     "Renewable Energy Awareness Workshop",
     "Coastal Conservation Activity"
@@ -38,7 +38,7 @@ ACTIVITY_THEMES = {
     "Tree Planting": "Reforestation, ecosystems & carbon absorption",
     "Recycling Campaign": "Waste reduction & resource conservation",
     "Community Gardening": "Sustainable communities & biodiversity",
-    "Sustainable Transport Campaign": "Reducing transport-related emissions",
+    "Join a movement": "Reducing transport-related emissions",
     "Water Conservation Campaign": "Protecting and conserving water resources",
     "Renewable Energy Awareness Workshop": "Climate-change awareness",
     "Coastal Conservation Activity": "Protecting coastal ecosystems"
