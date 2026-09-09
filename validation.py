@@ -32,7 +32,7 @@ def ask_for_name():
     be allowed to be blank.
     """
    while True:
-        name = input("Enter your full name: ").strip()
+        text = input("Enter your full name: ").strip()
 
         if name == "":
             print("Name cannot be empty.")
