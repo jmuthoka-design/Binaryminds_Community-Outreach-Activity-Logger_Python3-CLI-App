@@ -25,7 +25,7 @@ def ask_for_a_number():
 
 
 
-def ask_for_name():
+def ask_for_text():
     """
     Ask the user to type their individual or the organisation's name, and make sure they did not
     just press Enter and leave it empty. Required fields will not 
