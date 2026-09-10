@@ -1,0 +1,45 @@
+{
+  "records": {
+    "Organization": [
+      {
+        "id": 1,
+        "activity_type": "Beach Cleanup",
+        "theme": "Marine pollution & waste reduction",
+        "date": "2026-08-15",
+        "location": "Flic en Flac",
+        "user_type": "Organization",
+        "name": "Green Mauritius Club",
+        "num_volunteers": 12,
+        "hours": 36,
+        "impact": "Collected 50 bags of plastic waste from the shoreline"
+      },
+      {
+        "id": 2,
+        "activity_type": "Tree Planting",
+        "theme": "Reforestation, ecosystems & carbon absorption",
+        "date": "2026-08-22",
+        "location": "Curepipe",
+        "user_type": "Organization",
+        "name": "Eco Youth Group",
+        "num_volunteers": 8,
+        "hours": 24,
+        "impact": "Planted 40 native trees to support local reforestation"
+      }
+    ],
+    "Individual": [
+      {
+        "id": 3,
+        "activity_type": "Recycling Campaign",
+        "theme": "Waste reduction & resource conservation",
+        "date": "2026-08-29",
+        "location": "Quatre Bornes",
+        "user_type": "Individual",
+        "name": "Priya Naidoo",
+        "num_volunteers": 1,
+        "hours": 5,
+        "impact": "Sorted and delivered 20kg of recyclable plastic to the collection point"
+      }
+    ]
+  },
+  "next_id": 4
+}
