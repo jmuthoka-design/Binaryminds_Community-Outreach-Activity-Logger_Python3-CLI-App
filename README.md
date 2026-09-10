@@ -99,4 +99,5 @@ We want to use this opportunity to get people participate in our environment pro
 
 Parts of this project were developed with help from Claude (an AI
 assistant by Anthropic). You can check `ai_disclosure.md` for full details.
-https://drive.google.com/file/d/1GYXm0Qd3_rU4lRv8Pu81t9y6rZL3Njm6/view?ts=6aa332ae
+
+##link to demo walkthrough-https://drive.google.com/file/d/1GYXm0Qd3_rU4lRv8Pu81t9y6rZL3Njm6/view?ts=6aa332ae
