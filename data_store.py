@@ -49,13 +49,13 @@ def load_data():
             next_id = data["next_id"]
             return records, next_id
 
-    except FileNotFoundError:
-        # This happens the very first time the program runs.
-        empty_records = {"Organization": [], "Individual": []}
-        return empty_records, 1
+         except FileNotFoundError:
+            # This happens the very first time the program runs.
+            empty_records = {"Organization": [], "Individual": []}
+            return empty_records, 1
 
-    except json.JSONDecodeError:
-        # This happens if the file exists but is broken or empty.
-        print("The saved data file could not be read. Starting fresh.")
-        empty_records = {"Organization": [], "Individual": []}
-        return empty_records, 1
+         except json.JSONDecodeError:
+            # This happens if the file exists but is broken or empty.
+            print("The saved data file could not be read. Starting fresh.")
+            empty_records = {"Organization": [], "Individual": []}
+            return empty_records, 1
