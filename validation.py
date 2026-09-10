@@ -5,7 +5,7 @@ validates user input to prevent errors : we have two users(organization and Indi
 """
 
 
-def ask_for_a_number():
+def ask_for_a_number(question):
     """
     We ask the user to type a whole number bigger than 0 so as to find a volunteer activity.
     We use try/except because if someone types letters instead of
@@ -13,7 +13,7 @@ def ask_for_a_number():
     whole program. This keeps that from happening.
     """
     while True:
-        text = input("Enter a number bigger than 0: ")
+        text = input(question)
         try:
             number = int(text)
             if number > 0:
@@ -25,21 +25,21 @@ def ask_for_a_number():
 
 
 
-def ask_for_name():
+def ask_for_text(question):
     """
-    Ask the user to type their individual or the organisation's name, and make sure they did not
-    just press Enter and leave it empty. Required fields will not 
-    be allowed to be blank.
+    Ask the user to type some text, and make sure they did not
+    just press Enter and leave it empty. Required fields should
+    never be allowed to be blank.
     """
-   while True:
-        name = input("Enter your full name: ").strip()
-
-        if name == "":
-            print("Name cannot be empty.")
-        elif not name.replace(" ", "").isalpha():
-            print("Please enter a valid name.")
+    while True:
+        text = input(question)
+        text = text.strip()
+        if text == "":
+            print("This cannot be empty. Please type something.")
         else:
-            return name
+            return text
+
+
 
 
 

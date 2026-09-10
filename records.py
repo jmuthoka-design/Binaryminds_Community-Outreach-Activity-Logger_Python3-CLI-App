@@ -24,13 +24,13 @@ ACTIVITIES = [
     "Tree Planting",
     "Recycling Campaign",
     "Community Gardening",
-    "Sustainable Transport Campaign",
+    "Join a movement",
     "Water Conservation Campaign",
     "Renewable Energy Awareness Workshop",
     "Coastal Conservation Activity"
 ]
 
-# Every activity connects to a GCGO (Global Challenge) theme.
+# Every activity connects to a GC (Grand Challenge) theme.
 # This dictionary matches each activity type to its theme, so we
 # never have to ask the user to type it themselves - we look it up.
 ACTIVITY_THEMES = {
@@ -38,7 +38,7 @@ ACTIVITY_THEMES = {
     "Tree Planting": "Reforestation, ecosystems & carbon absorption",
     "Recycling Campaign": "Waste reduction & resource conservation",
     "Community Gardening": "Sustainable communities & biodiversity",
-    "Sustainable Transport Campaign": "Reducing transport-related emissions",
+    "Join a movement": "awareness about environmental conservation",
     "Water Conservation Campaign": "Protecting and conserving water resources",
     "Renewable Energy Awareness Workshop": "Climate-change awareness",
     "Coastal Conservation Activity": "Protecting coastal ecosystems"
@@ -88,7 +88,7 @@ def find_activity_by_id(activity_id):
 
 def get_all_activities_in_one_list():
     """
-    Put every activity (organization AND individual) into a single
+    Put every activity (organization and individual) into a single
     list. This makes it easier when we want to look at everything
     at once, like for statistics or the impact report.
     """
