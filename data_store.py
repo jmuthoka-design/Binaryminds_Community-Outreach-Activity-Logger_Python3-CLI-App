@@ -35,11 +35,11 @@ def save_data(records, next_id):
 
 
 def load_data():
-     """
-        Try to open the JSON file and read our saved data from it.
-        If the file does not exist yet, or cannot be read, we just
-        start with empty lists instead of crashing the program.
-     """
+         """
+         Try to open the JSON file and read our saved data from it.
+         If the file does not exist yet, or cannot be read, we just
+         start with empty lists instead of crashing the program.
+         """
         try:
         file = open(DATA_FILE, "r")
         data = json.load(file)
