@@ -41,13 +41,13 @@ def load_data():
          start with empty lists instead of crashing the program.
          """
         try:
-        file = open(DATA_FILE, "r")
-        data = json.load(file)
-        file.close()
+            file = open(DATA_FILE, "r")
+            data = json.load(file)
+            file.close()
 
-        records = data["records"]
-        next_id = data["next_id"]
-        return records, next_id
+            records = data["records"]
+            next_id = data["next_id"]
+            return records, next_id
 
     except FileNotFoundError:
         # This happens the very first time the program runs.
